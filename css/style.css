@@ -1,0 +1,16 @@
+/* 3. Ustaw wszystkim paragrafom kolor tła na czerwony.
+4. Nadepnie trzem wybranym paragrafom zmień kolor tła na niebieski - możesz je wyróżnić za pomocą tej samej wartości atrybutu class
+5. Do innych dwóch dodaj przezroczystość (właściwość opacity) - możesz je wyróżnić za pomocą tej samej wartości atrybutu class */
+
+
+p {display:block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.blue {background-color: blue;
+}
+
+.transparent {opacity: 0.4;
+}
